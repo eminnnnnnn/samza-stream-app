@@ -38,7 +38,7 @@
             <groupId>org.apache.samza</groupId>
             <artifactId>samza-core_2.12</artifactId>
             <version>1.8.0</version>
-            <scope>runtime</scope>
+<!--            <scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
@@ -46,37 +46,37 @@
             <classifier>dist</classifier>
             <type>tgz</type>
             <version>1.8.0</version>
-            <scope>runtime</scope>
+<!--            <scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
             <artifactId>samza-yarn_2.12</artifactId>
             <version>1.8.0</version>
-            <scope>runtime</scope>
+<!--            <scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
             <artifactId>samza-kv_2.12</artifactId>
             <version>1.8.0</version>
-            <scope>runtime</scope>
+<!--            <scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
             <artifactId>samza-kv-rocksdb_2.12</artifactId>
             <version>1.8.0</version>
-            <scope>runtime</scope>
+<!--            <scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
             <artifactId>samza-kv-inmemory_2.12</artifactId>
             <version>1.8.0</version>
-            <scope>runtime</scope>
+<!--            <scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
-            <artifactId>samza-kafka_2.11</artifactId>
-            <version>1.7.0</version>
-            <scope>runtime</scope>
+            <artifactId>samza-kafka_2.12</artifactId>
+            <version>1.8.0</version>
+<!--            <scope>compile</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.samza</groupId>
