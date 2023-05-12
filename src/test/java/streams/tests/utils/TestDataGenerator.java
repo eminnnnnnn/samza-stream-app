@@ -19,7 +19,7 @@ public class TestDataGenerator {
             User user = User.builder()
                     .name(faker.name().username())
                     .country(faker.country().name())
-                    .date(Date.from(Instant.now()))
+                    .date(Date.from(Instant.now()).toString())
                     .build();
             users.add(user);
         }

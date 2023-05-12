@@ -3,7 +3,6 @@ package streams.tests;
 import java.time.Duration;
 import java.util.List;
 
-import org.apache.samza.operators.KV;
 import org.apache.samza.serializers.NoOpSerde;
 import org.apache.samza.test.framework.TestRunner;
 import org.apache.samza.test.framework.system.descriptors.InMemoryInputDescriptor;

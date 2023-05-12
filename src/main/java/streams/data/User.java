@@ -1,7 +1,6 @@
 package streams.data;
 
 import java.io.Serializable;
-import java.util.Date;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,5 +14,5 @@ import lombok.NoArgsConstructor;
 public class User implements Serializable {
     private String name;
     private String country;
-    private Date date;
+    private String date;
 }
